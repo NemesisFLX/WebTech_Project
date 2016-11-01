@@ -1,15 +1,53 @@
+html,
+body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
 header {
     background-color: lightblue;
-    border-style: none;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    padding: 10px;
 }
 aside {
     background-color: lightblue;
-    border-style: none;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    float: left;
+    padding: 0 0 0 0;
+    width: 10%;
+    height: 100%;
+}
 
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+article{
+    float: left;
+    width: 60%;
+}
+
+nav {
+    float: right;
+    width: 15%;
+    height: 100%;
+    background-color: lightblue;
+}
+
+footer {
+    background: lightblue;
+    clear: both;
+    width: 100%;
+    height:20px;
+    position:absolute;
+    bottom: 0;
+    left:0;
+
+}
+
+
+article,
+section
+{
+    margin: 0 0.5% 24px 0.5%;
 }

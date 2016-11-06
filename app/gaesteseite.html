@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Mensa Adaqua</title>
@@ -25,7 +26,7 @@
     <a href="mitarbeiterseite.html" title="Mitarbeiterseite">Mitarbeiterseite</a><br>
     <a href="gaesteseite.html" title="Gästeseite">Gästeseite</a><br>
 </nav>
-<table>
+<table class="essen">
     <tr>
         <td>
             <div class="polaroid">
@@ -34,6 +35,10 @@
                     <p>Pasta mit Haehnchen und Gorgonzola</p>
                 </div>
             </div>
+            <div class="beschreibung">
+                Kosten: 5€
+                Beschreibung: Viel essen für wenig Geld
+            </div>
         </td>
         <td>
             <div class="polaroid">
@@ -41,6 +46,10 @@
                 <div class="container">
                     <p>Deftiger Nudeleintopf</p>
                 </div>
+            </div>
+            <div class="beschreibung">
+                Kosten: 5€
+                Beschreibung: Viel essen für wenig Geld
             </div>
         </td>
     </tr>
@@ -52,6 +61,10 @@
                     <p>Kabeljau in Spinatrahm</p>
                 </div>
             </div>
+            <div class="beschreibung">
+                Kosten: 5€
+                Beschreibung: Viel essen für wenig Geld
+            </div>
         </td>
         <td>
             <div class="polaroid">
@@ -59,6 +72,10 @@
                 <div class="container">
                     <p>Lachstatar mit Roesti</p>
                 </div>
+            </div>
+            <div class="beschreibung">
+                Kosten: 5€
+                Beschreibung: Viel essen für wenig Geld
             </div>
         </td>
     </tr>
@@ -72,7 +89,8 @@
                 </div>
             </div>
             <div class="beschreibung">
-                blallsfasfsa fffffffffff ffffffffffffffffff ffffffffffffffff
+                Kosten: 5€
+                Beschreibung: Viel essen für wenig Geld
             </div>
             </div>
         </td>
@@ -83,9 +101,88 @@
                     <p>Paprika Braet Gratin</p>
                 </div>
             </div>
+            <div class="beschreibung">
+                Kosten: 5€
+                Beschreibung: Viel essen für wenig Geld
+            </div>
         </td>
     </tr>
 </table>
+<div class="eingabe">
+    <h1>
+        Vorschlag machen:
+    </h1>
+    <div class="button_eingabe">
+        <form>
+            <input type="text" name="Name" value="Name"><br>
+            <input type="radio" name="Fleisch">Fleisch</input><br>
+            <input type="radio" name="Vegan">Vegan</input><br>
+            <input type="radio" name="Vegetarisch">Vegetarisch</input>
+        </form>
+        <input type="button" style="background-color: forestgreen; margin-top: 30px" value="Vorschlagen">
+    </div>
+    <div class="tabelle_eingabe">
+        <table class="tabelle_eingabe">
+            <tr>
+                <th>Zutat</th>
+                <th>Menge</th>
+                <th>Einheit</th>
+            </tr>
+        <tr>
+            <td>Frucht</td>
+            <td>13</td>
+            <td>g</td>
+        </tr>
+        <tr>
+            <td>Wasser</td>
+            <td>100</td>
+            <td>ml</td>
+        </tr>
+    </table>
+        <div id="button_field_table">
+            <div id="button_mitte_zutat">
+                <input type="button" value="Zutat hinzufügen" style="background-color: forestgreen">
+            </div>
+            <div id="button_rechts_zutat">
+                <input type="button" value="Zutat löschen" style="background-color: indianred">
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div id="vorschlag_table">
+    <table id="vorschlag_table_table">
+        <tr>
+            <th>Name</th>
+            <th>Vorschläger</th>
+            <th>Löschen</th>
+        </tr>
+        <tr>
+            <td>Entenbrust</td>
+            <td>Victor F.</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Linsensuppe</td>
+            <td>Carol R.</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Spaghetti Bolognese</td>
+            <td>Orson W.</td>
+            <td><input type="checkbox"></td>
+        </tr>
+    </table>
+    <div id="button_field_table2">
+        <div id="button_mitte_zutat">
+            <input type="password" >
+        </div>
+        <div id="button_rechts_zutat">
+            <input type="button" value="Gericht löschen" style="background-color: indianred">
+        </div>
+    </div>
+</div>
 <footer>
     Copyright 1999-2016
 </footer>

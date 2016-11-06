@@ -14,7 +14,7 @@ aside {
     background-color: lightblue;
     float: left;
     position: absolute;
-    height: 100%;
+    height: 250%;
 }
 
 
@@ -25,12 +25,70 @@ aside {
     top: 5px;
 }
 
-table {
+table.essen{
     float: left;
     width: 65%;
     position: absolute;
     top: 120px;
     left: 260px;
+}
+
+div.eingabe{
+    width: 50%;
+    position: absolute;
+    top: 1200px;
+    left: 260px;
+}
+div.tabelle_eingabe{
+    position: relative;
+    float: right;
+    width: 30%;
+    text-align: left;
+}
+
+#button_mitte_zutat {
+    float: left;
+
+}
+
+#vorschlag_table{
+    position: absolute;
+    top: 1500px;
+    left: 260px;
+    width: 80%;
+    text-align: left;
+}
+
+#vorschlag_table_table{
+    width: 100%;
+}
+
+#button_rechts_zutat {
+    float: right;
+}
+
+#button_field_table{
+    width: 200%;
+    float: left;
+}
+
+#button_field_table2{
+    width: 74%;
+    float: left;
+}
+
+table.tabelle_eingabe {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    width: 480px;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 30px 30px 30px 15px;
+}
+
+div.button_eingabe{
+    float: left;
+    width: 30%;
 }
 
 td {
@@ -41,7 +99,7 @@ nav {
     background-color: lightblue;
     position: absolute;
     right: 0;
-    height: 100%;
+    height: 250%;
 }
 
 footer {

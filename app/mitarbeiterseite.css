@@ -42,3 +42,12 @@ footer {
     bottom: 0;
 }
 
+section{
+    position: absolute;
+    float: right;
+    left: 40%;
+    top: 50%;
+    width: 50%
+    height: 50% ;
+    text-align: left;
+}
